@@ -1,11 +1,7 @@
 version: 1.0.{build}
+image: Ubuntu1804
 configuration: Debug
 platform: Any CPU
-nuget:
-  account_feed: true
-  project_feed: true
-build:
-  verbosity: minimal
 notifications:
 - provider: GitHubPullRequest
   auth_token:
